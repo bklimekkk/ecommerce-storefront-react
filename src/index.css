@@ -1,0 +1,152 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 70px; 
+}
+
+button {
+  border: none;
+  border-radius: 10px;
+  padding: 10px;  
+}
+
+input {
+  border: none;
+  background-color: rgb(214, 214, 214);
+  padding: 10px; 
+  border-radius: 20px; 
+  margin-bottom: 5px;
+}
+
+.new-item-input, .categories-select, .new-item-btn, .new-category-input {
+  margin-right: 10px; 
+}
+  
+.store-header {
+  background-color: rgb(68, 0, 128);;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 10px; 
+}
+
+.header-btn {
+  background-color: rgb(68, 0, 128);
+  border: none;
+  color: white;
+}
+
+.cart-btn {
+  position: absolute;
+  right: 0;
+}
+
+.category-container {
+  display: flex; 
+  align-items: center;
+}
+
+.category-delete-btn {
+  cursor: pointer;
+  background-color: red;
+  color: white;
+  height: 35px; 
+  margin-left: 10px;
+}
+
+.category-error-message, .new-item-error-message {
+  color: red; 
+}
+
+.items-container, .cart-container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  column-gap: 5px;
+  row-gap: 5p;
+}
+
+.item-container {
+  box-shadow: 0 0 3px black; 
+  border-radius: 10px; 
+  position: relative; 
+}
+
+.delete-btn, .add-to-cart-btn {
+  position: absolute;
+  top: 5px;
+  background-color: black;
+  color: white; 
+}
+
+.delete-btn {
+ right: 5px;
+}
+
+.add-to-cart-btn {
+  position: absolute; 
+  left: 5px;
+}
+
+.item-image {
+  width: 100%; 
+  border-radius: 10px 10px 0 0; 
+}
+
+.item-info-container {
+  padding: 5px; 
+}
+
+.edit-btn {
+  position: absolute; 
+  bottom: 5px;
+  right: 5px; 
+}
+
+.add-to-cart-select {
+  position: absolute;
+  top: 50px;
+  left: 5px;
+}
+
+.out-of-stock-label {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  margin: 0 0;
+}
+
+.added-to-cart-btn {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  background-color: green;
+  color: white; 
+}
+
+.cart-item-container {
+  border-radius: 10px;
+  box-shadow: 0 0 3px black; 
+  position: relative; 
+}
+
+.cart-item-info-section {
+  padding: 5px;
+}
+
+.edit-quantity-btn {
+  position: absolute;
+  right: 5px;
+  bottom: 5px;
+}
+
+.delete-from-cart-btn {
+  position: absolute; 
+  top: 5px;
+  right: 5px;
+  background-color: black;
+  color: white; 
+}
+
+.new-item-success-message {
+  color: green;
+}
